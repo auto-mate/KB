@@ -1,0 +1,48 @@
+
+a {
+color:white;
+text-decoration: none;
+}
+body {
+    color:white;
+    background-color: #555;
+    margin-left: 100px;
+    font-family: monospace;
+}
+button.copy {
+    float: right;
+}
+i {
+    color: burlywood;
+    display: block;         
+    margin-top: 50px;
+}
+.homeLink {
+    color: darksalmon;
+}
+.note {
+    background-color: gold;
+    color: black;
+    width: 994px;
+    padding: 3px;
+}
+.res {/*
+    background-color: #9AA;
+    color: black;*/
+    width: 1000px;
+}
+.qry {
+    background-color: #1e1e1e;
+    width: 1000px;
+}
+.highlightY {
+    color: yellow;    
+}
+
+.highlightOr {
+    color: orange;
+}
+
+.highlightLb {
+    color:lightblue;
+}
