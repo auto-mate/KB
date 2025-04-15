@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>**TITLE**</title>
+    <link rel="stylesheet"  href="../css/kb.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/vs2015.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <script>
+        function eleCopyTxt(e) {
+            navigator.clipboard.writeText(e.nextElementSibling.textContent);
+        }    
+    </script>
+</head>
+<body>
+    <!--Header and Index -->
+    <h1></h1>
+    <a href="../KB_Home.html" class="homeLink">KB Homepage Link</a>
+    <h2>**COMMAND NAME**</h2>
+    <p>**Introduction**</p>
+    <h3>Examples</h3>
+    <ul>
+        <li><a href="#E1">Ex.1 **Desc**</a></li>        
+        <!--repeat as required-->
+    </ul>
+
+    <!--Examples-->
+    <!--repeat as required-->
+    <i id="E1">Ex.1 **Desc**</i>
+    <div class="qry"><button class="copy" onclick="eleCopyTxt(this)">Copy</button>
+    <pre><code class="language-SQL">
+        **YOUR EXAMPLE**
+    </code></pre>
+    </div>
+    <div class="res">
+    <pre><code class="language-Plaintext">        
+        **YOUR RESULT**
+    </code></pre>
+    </div>
+
+</body>
+</html>
